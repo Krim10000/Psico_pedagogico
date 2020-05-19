@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+ <h1> DETALLES DEL TEST/ EDITAR </h1>
+
+-->
+<form method="POST">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <p><button type="submit">Editar</button></p>
+</form>
+
+
+
+
+
+
+<a href="{% url "menu" %}"> Volver </a>
